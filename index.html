@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>phone store </title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        
+
+     
+            <section id="particles-js"  >
+               
+                <div class="contan ">
+
+                    <div  class="craud text-center">
+                        <h1>Phone Store</h1>
+        
+        
+                      <div class="inputs m-5">
+                          <input type="text" id="name" placeholder="Enter your phone name :" class="form-control text-danger ">
+                           
+                          <div id="problemName" class="alert alert-danger w-75 d-none m-auto ">
+                              <p > The name of the phone must start with a capital letter and not less than three letters  </p>
+                          </div>
+                        </div>
+                      <div class="inputs m-5">
+                        <input required type="text"id="id" placeholder="Enter your phone Id :" class="form-control text-danger">
+                      </div>
+                      <div class="inputs m-5">
+        
+                        <input required type="number"id="cost" placeholder="Enter your CosT phone :" class="form-control text-danger ">
+                      </div>
+                      <div class="inputs m-5">
+                    <textarea name="" id="Disc" cols="30" rows="6" type="text" placeholder="Enter discription :" class="form-control text-danger m-auto w-75"></textarea>
+                    </div>
+                    <button disabled class="btn1 btn btn-success m-5 float-end">Add Product</button>
+        
+                    <div class="clearfix "></div>
+        
+                    </div>
+        
+        
+                    <div  class="container mt-5">
+                        <input id="search" onkeyup="search(this.value)" type="text"class='form-control w-50 m-5  ' placeholder="search her ">
+                        <table class="table table-striped">
+                            <thead>
+                                <th> Phone Id</th>
+                                <th> Phone Name</th>
+                                <th> Phone Cost</th>
+                                <th> Phone Disc</th>
+                                <th> delete</th>
+                                <th> update</th>
+        
+                            </thead>
+                            <tbody id="TableBody">
+        
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+             
+            </section>   
+        
+
+        
+           
+        
+
+
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>        
+    </body>
+</html>
